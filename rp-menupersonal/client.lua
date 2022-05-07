@@ -121,23 +121,7 @@ function OpenMenuPersonal()
     local job = DataJob.job.label
     local jobgrade = DataJob.job.grade_label
 
-    --[[ Template 
-    
-          {label = 'test', value = 'test_interaction'},
 
-          Label = How is it going to look on the menu
-          Value = "Identifier" for when you press
-
-          ---------- Use value ----------
-
-          if data.current.value == 'test_interaction' then
-
-            print("Hellow")
-            --Your code here
-          end
-          
-          When someone press on 'test', its gonna print Hellow
-    ]]--
 
     ESX.UI.Menu.Open(
       'default', GetCurrentResourceName(), 'rp-menupersonal',
